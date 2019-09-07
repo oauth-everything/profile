@@ -10,12 +10,20 @@
         "clean": "rimraf dist",
         "build-full": "npm run clean && npm run lint && npm run build"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oauth-everything/profile.git"
+    },
     "keywords": [
         "oauth",
         "profile"
     ],
     "author": "Tyler Schrock <tschrock123@gmail.com>",
     "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/oauth-everything/profile/issues"
+    },
+    "homepage": "https://github.com/oauth-everything/profile",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^2.1.0",
         "@typescript-eslint/parser": "^2.1.0",
