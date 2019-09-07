@@ -16,5 +16,5 @@ npm install --save-dev @oauth-everything/profile
 
 ## Usage
 ```ts
-include { Profile } from '@oauth-everything/profile';
+import { Profile } from '@oauth-everything/profile';
 ```
